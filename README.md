@@ -1,5 +1,18 @@
 
-# 简介
+## 安装
+
+* 安装华为npm源
+
+  ```js
+  npm config set registry https://repo.huaweicloud.com/repository/npm/
+  npm cache clean -f
+  ```
+* 安装所需包
+
+  `npm i`
+* 启动项目
+
+  `npm start`
 
 ## 使用帮助
 
