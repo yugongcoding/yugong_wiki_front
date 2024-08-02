@@ -1,0 +1,30 @@
+export interface ArticleState {
+  editorRef: any;
+  id: number;
+  content: string;
+  article_id: string;
+  show: boolean;
+  show_edit: boolean;
+  showBookInfo: boolean;
+  bookInfo: any;
+  bookCategory: any;
+  views: number;
+  likes: number;
+  collects: number;
+  comments: number;
+  is_like: boolean;
+  is_collect: boolean;
+  father_id: string;
+  name: string;
+  word_count: number;
+  create_person: string;
+  update_person: string;
+  read_time: number;
+  create_time: string;
+  update_time: string;
+  username: string;
+  user_id: string;
+  category: string;
+  edit: boolean;
+  role: any;
+}
