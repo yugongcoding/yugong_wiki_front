@@ -1,18 +1,31 @@
 
 ## 安装
 
-* 安装华为npm源
+### 安装华为npm源
 
-  ```js
-  npm config set registry https://repo.huaweicloud.com/repository/npm/
-  npm cache clean -f
-  ```
-* 安装所需包
+```js
+npm config set registry https://repo.huaweicloud.com/repository/npm/
+npm cache clean -f
+```
 
-  `npm i`
-* 启动项目
+### 克隆项目
 
-  `npm start`
+```js
+git clone https://github.com/yugongcoding/yugong_wiki_front.git
+cd yugong_wiki_front
+```
+
+### 安装所需包
+
+```js
+npm i
+```
+
+### 启动项目
+
+```js
+npm start
+```
 
 ## 使用帮助
 
